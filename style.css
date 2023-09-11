@@ -1,0 +1,831 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    text-decoration: none;
+    outline: none;
+    font-weight: 400;
+}
+
+html {
+    font-size: 63%;
+}
+
+.header {
+    background-color: #23a88b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    padding: 1rem 7%;
+}
+
+
+.logo {
+    width: 50px;
+}
+
+.navbar a {
+    color: white;
+    font-size: 2rem;
+    margin-left: 2.5rem;
+    position: relative;
+
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.icons a {
+    background-color: #ff5d22;
+    color: white;
+    padding: 1.5rem 3rem;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    transition: all 1s;
+}
+
+.icons a:hover {
+    background: transparent;
+    border: 1px solid #ff5d22;
+}
+
+.img1 {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    object-fit: cover;
+}
+
+.content {
+    position: absolute;
+    top: 40%;
+    width: 50%;
+    left: 5%;
+}
+
+.content h1 {
+    color: black;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.content p {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    margin-bottom: 4rem;
+}
+
+.content a {
+    background-color: #ff5d22;
+    color: white;
+    padding: 1.5rem 3rem;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    transition: all 1s;
+}
+
+.content a:hover {
+    background: transparent;
+    border: 1px solid #ff5d22;
+    color: black;
+}
+
+.secetion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.box {
+    width: 29%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 3rem;
+    color: aliceblue;
+    font-family: Roboto, sans-serif;
+    font-weight: bolder;
+    transition: all 0.5s;
+}
+
+.box:hover {
+    transform: scale(1.1, 1);
+    box-shadow: 10px 10px 15px #23a88b;
+    border-radius: 10px;
+    background-color: rgb(85, 93, 102);
+}
+.box a{
+    color: white;
+}
+.box p {
+    line-height: 2rem;
+    font-size: 1.5rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.box img {
+    width: 40%;
+}
+
+.box1 {
+    background-color: rgba(133, 142, 153, 0.6);
+}
+
+.box2 {
+    background-color: rgb(133, 142, 153);
+
+}
+
+
+.box3 {
+    background-color: rgb(85, 93, 102);
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 10%;
+    padding: 5rem 5rem;
+}
+
+.pharmacy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+}
+
+.about h1 {
+    font-size: 4rem;
+    font-family: Oswald, sans-serif !important;
+}
+
+.about p {
+    font-size: 2rem;
+    line-height: 3rem;
+    margin-top: 2rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.heart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heart img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.heartimg {
+    width: 60%;
+}
+
+.heart h2 {
+    font-family: Roboto, sans-serif;
+    font-size: 2.5rem;
+    margin: 20px 10px 10px 10px;
+}
+
+.heart p {
+    font-size: 1.7rem;
+    padding: 2rem 5%;
+    margin-left: 15%;
+}
+
+.herrtbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    transition: all, 0.7s;
+    padding: 2rem;
+}
+
+
+.herrtbox i {
+    font-size: 6rem;
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    color: #ff5d22;
+    transition: background-color, 0.5s;
+}
+
+.herrtbox i:hover {
+    background-color: #23a88b;
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    padding: 1.3rem;
+    transform: scale(1.1 1.1);
+}
+
+
+.heartcon {
+    margin-left: 4%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.ourdepartment {
+    width: 100%;
+    height: 90vh;
+    background-color: #858e99;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.ourcont h1 {
+    font-size: 5rem;
+    color: white;
+    text-transform: uppercase;
+    margin: 8rem 0 3rem 0;
+}
+
+.ourcont p {
+    font-size: 2rem;
+    color: white;
+    line-height: 3rem;
+}
+
+.ourparts {
+    display: flex;
+    justify-content: center;
+    row-gap: 8rem;
+    margin-top: 8rem;
+    justify-content: space-evenly;
+}
+
+.ourparts i {
+    color: white;
+    font-size: 7rem;
+    font-style: normal;
+}
+
+.ourparts i:hover {
+    color: #ff5d22;
+}
+
+.ourparts h1 {
+    color: white;
+    padding: 2rem;
+}
+
+.care {
+    width: 100%;
+    display: flex;
+    margin-top: 5%;
+}
+
+.care2 {
+    width: 50%;}
+
+.care img {
+    width: 100%;
+    height: 400px;
+}
+
+.care3 {
+    width: 50%;
+    padding: 5rem;
+}
+
+.care3 h1 {
+    font-size: 4rem;
+}
+
+.care3 p {
+    font-size: 1.7rem;
+    line-height: 3rem;
+    margin-top: 1rem;
+}
+
+.wecare {
+    width: 100%;
+    height: 120vh;
+    background-color: rgb(224, 229, 235);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    position: relative;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.wecare1 {
+    width: 25%;
+    height: 80vh;
+    background-color: white;
+    margin-top: 6rem;
+    box-shadow: 5px 5px 10px white;
+    transition: box-shadow, 1s;
+}
+
+.wecare1:hover {
+    background-color: rgba(22, 165, 165, 0.9);
+    box-shadow: 10px 10px 15px #23a88b;
+    color: aliceblue;
+    border-radius: 10px;
+}
+
+.wecare1 img {
+    width: 100%;
+    height: 40vh;
+}
+
+.wecare0 {
+    position: absolute;
+    top: 0;
+    text-align: center;
+}
+
+.wecare1 h1 {
+    font-size: 2.5rem;
+    margin: 3rem;
+}
+
+.wecare1 p {
+    font-size: 1.5rem;
+    margin: 3rem;
+    font-weight: 100;
+}
+
+.wecare1 h3 {
+    font-size: 1.5rem;
+    margin: 3rem;
+    color: blue;
+}
+
+.wecare0 h1 {
+    font-size: 4rem;
+    margin: 3rem;
+    text-transform: uppercase;
+}
+
+.wecare0 p {
+    font-size: 2rem;
+    margin: 3rem;
+}
+
+.globalimg {
+    width: 100%;
+    height: 120vh;
+    background-color: rgb(85, 93, 102);
+}
+
+.globalimg img {
+    width: 100%;
+    height: 90vh;
+}
+
+.globalimg h1 {
+    font-size: 3rem;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 1.7rem;
+}
+
+.globalimg p {
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+    margin: 1rem;
+    line-height: 1.9rem;
+}
+
+.OURSPECIALISTS {
+    width: 100%;
+    height: 130vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    position: relative;
+    margin-top: 30px;
+}
+
+.our {
+    width: 24%;
+    height: 500px;
+    background-color: gray;
+    line-height: 3rem;
+    margin-top: 100px;
+    text-align: center;
+    transition: background-color, 1s;
+    cursor: pointer;
+}
+
+.our:hover {
+    box-shadow: 10px 10px 20px #2fd6b2;
+    background-color: rgba(7, 119, 110, 0.7);
+
+}
+
+.our h1 {
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+}
+
+.our p {
+    font-size: 1.5rem;
+    color: white;
+}
+
+.our img {
+    width: 100%;
+    height: 400px;
+}
+
+.ourcant {
+    position: absolute;
+    top: 0;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.ourcant h1 {
+    font-size: 2.8rem;
+    padding: 2rem;
+}
+
+.ourcant p {
+    font-size: 1.8rem;
+}
+
+.our1 {
+    background-color: rgba(133, 142, 153, 0.6);
+}
+
+.our2 {
+    background-color: rgb(133, 142, 153);
+}
+
+.our3 {
+    background-color: rgb(85, 93, 102);
+}
+
+footer {
+    background-color: #272727;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer li {
+    list-style: none;
+    display: inline-block;
+    margin: 10px;
+}
+
+.footer-icons a {
+    background-color: #ff5d22;
+    color: #272727;
+    padding: 15px;
+    border-radius: 100px;
+    display: flex;
+    font-size: 3rem;
+}
+
+.footer-icons a:hover {
+    color: #fff;
+}
+
+.footer-menu a {
+    color: #fff;
+    font-size: 2rem;
+
+}
+
+.footer-menu a:hover {
+    color: #ff5d22;
+}
+
+.footer-copyright {
+    background-color: #23a88b;
+    color: #fff;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+.footer-copyright p {
+    margin-bottom: 0px;
+    font-size: 1.5rem;
+}
+
+
+
+
+
+@media only screen and (min-width:500px) and (max-width:800px) {
+    html {
+        font-size: 55%;
+    }
+
+    .header {
+        padding: 3rem 2%;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .secetion {
+        flex-direction: column;
+    }
+
+    .box {
+        text-align: center;
+        width: 80%;
+        height: 250px;
+        border-radius: 10px;
+        background-color: rgb(85, 93, 102);
+        margin-top: 3rem;
+    }
+
+    .box img {
+        width: 20%;
+    }
+
+    .about h1 {
+        font-size: 2rem;
+    }
+
+    .about p {
+        font-size: 1.5rem;
+    }
+
+    .heart {
+        flex-direction: column;
+    }
+
+    .heartimg {
+        width: 90%;
+
+    }
+
+    .heartcon {
+        width: 90%;
+        color: white;
+    }
+
+    .heart h2 {
+        font-size: 1.5rem;
+    }
+
+    .herrtbox {
+        background-color: #23a88b;
+
+    }
+
+    .herrtbox i {
+        color: #ff5d22;
+        margin-right: 5rem;
+        font-size: 6rem;
+    }
+
+    .herrtbox i:hover {
+
+        height: 70px;
+        width: 70px;
+        border-radius: 50%;
+        padding: 1.1rem;
+
+    }
+
+    .ourdepartment {
+        height: 280vh;
+    }
+
+    .ourparts {
+        flex-direction: column;
+    }
+
+    .care {
+        flex-direction: column;
+    }
+
+    .care2 {
+        width: 100%;
+    }
+
+    .care3 {
+        width: 100%;
+    }
+
+    .wecare {
+        flex-direction: column;
+        height: 350vh;
+    }
+
+    .wecare1 {
+        width: 80%;
+        height: 75vh;
+        background-color: white;
+        margin-top: 6rem;
+        box-shadow: 5px 5px 10px white;
+        transition: box-shadow, 1s;
+    }
+
+    .OURSPECIALISTS {
+        flex-direction: column;
+        height: 370vh;
+    }
+
+    .our {
+        width: 70%;
+    }
+
+    .globalimg img {
+        width: 90%;
+        height: 80vh;
+    }
+}
+
+@media only screen and (min-width:300px) and (max-width:500px) {
+    .navbar a {
+        color: white;
+        font-size: 1.1rem;
+        margin-left: 1rem;
+        position: relative;
+
+    }
+
+    .icons a {
+        background-color: #ff5d22;
+        color: white;
+        padding: 1.5rem 3rem;
+        font-size: 1rem;
+        border-radius: 10px;
+        transition: all 1s;
+
+    }
+
+    .content {
+        top: 15%;
+    }
+    .content h1{
+        font-size: 1.5rem;
+    }
+
+    .herrtbox i {
+        font-size: 3rem;
+        margin-right: 5rem;
+    }
+
+    .herrtbox i:hover {
+
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        padding: 1.3rem;
+    }
+
+    html {
+        font-size: 55%;
+    }
+
+    .header {
+        padding: 3rem 2%;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .secetion {
+        flex-direction: column;
+    }
+
+    .box {
+        text-align: center;
+        width: 80%;
+        height: 250px;
+        border-radius: 10px;
+        background-color: rgb(85, 93, 102);
+        margin-top: 3rem;
+    }
+
+    .box img {
+        width: 20%;
+    }
+
+    .about h1 {
+        font-size: 2rem;
+    }
+
+    .about p {
+        font-size: 1.5rem;
+    }
+
+    .heart {
+        flex-direction: column;
+    }
+
+    .heartimg {
+        width: 90%;
+    }
+
+    .heartcon {
+        width: 90%;
+        color: white;
+    }
+
+    .heart h2 {
+        font-size: 1.5rem;
+    }
+
+    .herrtbox {
+        background-color: #23a88b;
+    }
+
+    .herrtbox i {
+        color: #ff5d22;
+        margin-right: 5rem;
+        font-size: 6rem;
+    }
+
+    .herrtbox i:hover {
+
+        height: 70px;
+        width: 70px;
+        border-radius: 50%;
+        padding: 1.1rem;
+
+    }
+
+    .ourdepartment {
+        height: 280vh;
+    }
+
+    .ourparts {
+        flex-direction: column;
+    }
+
+    .care {
+        flex-direction: column;
+    }
+
+    .care2 {
+        width: 100%;
+    }
+
+    .care3 {
+        width: 100%;
+    }
+
+    .wecare {
+        flex-direction: column;
+        height: 350vh;
+    }
+
+    .wecare1 {
+        width: 80%;
+        height: 75vh;
+        background-color: white;
+        margin-top: 6rem;
+        box-shadow: 5px 5px 10px white;
+        transition: box-shadow, 1s;
+    }
+
+    .OURSPECIALISTS {
+        flex-direction: column;
+        height: 370vh;
+    }
+
+    .our {
+        width: 70%;
+    }
+
+    .globalimg img {
+        width: 90%;
+        height: 80vh;
+    }
+}
